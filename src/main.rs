@@ -29,7 +29,7 @@ fn main() {
         }
     };
 
-    for i in 0..int_order {
+    for i in 1..int_order {
         println!("순서({i}) = {}", fibonacci(i));
     }
 }
